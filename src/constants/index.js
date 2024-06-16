@@ -19,8 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    clonekart,
+    watchify,
     tripguide,
     threejs,
   } from "../assets";
@@ -120,7 +120,7 @@ import {
       company_name: "CodeVue",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "August 2023 - January 2024",
+      date: "August 2023 - April 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -160,46 +160,54 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CloneKart",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " Developed a fully functional e-commerce platform inspired by Flipkart using the MERN stack, featuring user authentication, product catalog, shopping cart functionality, and checkout process, providing a comprehensive shopping experience for users.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MaterialUI",
           color: "pink-text-gradient",
         },
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: clonekart,
+      source_code_link: "https://github.com/Lokesh2805/Flipkart_Clone",
     },
     {
-      name: "Job IT",
+      name: "Watchify",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Implemented robust search feature to find movies efficiently. Developed user interface with both dark and light themes for enhanced user experience. Fetched real-time movie data from The Movie Database (TMDB) API. ",
       tags: [
         {
-          name: "react",
+          name: "NextJS 14",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "TMDB API",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: watchify,
+      source_code_link: "https://github.com/Lokesh2805/Watchify-movie-app",
     },
     {
       name: "Trip Guide",
